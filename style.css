@@ -1,0 +1,195 @@
+@font-face {
+    font-family: 'DINCond';
+    src: url('fonts/DINCond-Light.otf');
+}
+
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url('fonts/Lato-Bold.eot');
+}
+
+body {
+        font-family: Monospace;
+        background-color: #f0f0f0;
+        margin: 0px;
+        overflow: hidden;
+    }
+    #main {
+        background-color: #f0f0f0;
+        overflow: hidden;
+        position: static;
+    }
+	#wordlist {
+        overflow: auto;
+        opacity: 0.7;
+        position: absolute;
+        font-family: 'DINCond';
+        font-size: 25px;
+        color: #cce8ed;
+        display: none;
+	}
+    #clock {
+        opacity: 0.8;
+        position: absolute;
+        font-family: 'DINCond';
+        font-size: 25px;
+        color: #cce8ed;
+        display: none;
+    }
+    #clockTitle {
+        position: absolute;
+        font-family: 'DINCond';
+        font-size: 29px;
+        opacity: 0.8;
+        color: #cce8ed;
+        display: none;
+    }
+    #scoreTitle {
+        position: absolute;
+        font-family: 'DINCond';
+        font-size: 29px;
+        opacity: 0.8;
+        color: #cce8ed;
+        display: none;
+    }
+    #score {
+        opacity: 0.8;
+        position: absolute;
+        font-family: 'DINCond';
+        font-size: 25px;
+        color: #cce8ed;
+        display: none;
+    }
+    #wordTitle {
+        position: absolute;
+        font-family: 'DINCond';
+        font-size: 29px;
+        opacity: 0.8;
+        color: #cce8ed;
+        display: none;
+    }
+    #startbutton {
+        opacity: 1;
+        position: absolute;
+        display: none;
+    }
+
+    .btn {
+        color: #fff;
+        background-color: #e74c3c;
+        font-weight: bold;
+        border: 2px solid #fff;
+        font-family: 'DINCond';
+        font-size: 29px;
+        font-weight: bold;
+        border-radius: 6px;
+    }
+     
+    .btn:hover {
+        color: #e74c3c;
+        background-color: #fff;
+        border: 2px solid #e74c3c;
+        cursor: pointer;
+    }
+
+    .btn-small {
+        color: #fff;
+        background-color: #e74c3c;
+        font-weight: bold;
+        border: 2px solid #fff;
+        font-family: 'DINCond';
+        font-size: 22px;
+        font-weight: bold;
+        border-radius: 6px;
+    }
+     
+    .btn-small:hover {
+        color: #e74c3c;
+        background-color: #fff;
+        border: 2px solid #e74c3c;
+        cursor: pointer;
+    }
+
+    #invalidword{
+    	position:absolute;
+    	display:none;
+    }
+    #restartbutton {
+        opacity: 1;
+        position: absolute;
+        display: none;
+	    disabled: true;
+    }
+    #scoreTitle1 {
+        position: absolute;
+        font-family: 'DINCond';
+        font-size: 29px;
+        opacity: 0.8;
+        color: #cce8ed;
+        display: none;
+    }
+    #score1 {
+        opacity: 0.8;
+        position: absolute;
+        font-family: 'DINCond';
+        font-size: 25px;
+        color: #cce8ed;
+        display: none;
+    }
+    #pausebutton {
+        opacity: 1;
+        position: absolute;
+        display: none;
+	    disabled: true;
+	    
+    }
+
+    .notif {
+        color: #e74c3c;
+        background-color: #fff;
+        border: 2px solid #e74c3c;
+        font-family: 'DINCond';
+        font-size: 29px;
+        border-radius: 6px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    #help {
+        opacity: 0.8;
+        position: absolute;
+        display: none;
+        }
+
+    .infobox {
+        color: #fff;
+        background-color: #fa6151;
+        font-family: 'DINCond';
+        font-size: 22px;
+        border-radius: 6px;
+        text-align: center;
+        border: 2px solid #fff;
+        }
+
+    #creditsbutton {
+        opacity: 1;
+        position: absolute;
+        display: none;
+    }
+
+    #creditsdialog {
+        position:absolute;
+        display:none;
+    }
+
+    .dialog {
+        color: #e74c3c;
+        background-color: #fff;
+        border: 2px solid #e74c3c;
+        font-family: 'DINCond';
+        font-size: 18px;
+        border-radius: 6px;
+        text-align: center;
+        font-weight: bold;
+        z-index: 1;
+    }
